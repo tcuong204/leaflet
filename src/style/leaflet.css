@@ -1,10 +1,47 @@
+.kq {
+  line-height: 0;
+  font-weight: 500 !important;
+  color: #1a152e !important;
+}
+
+.leaflet-popup-content-wrapper {
+  width: 110%;
+}
+.leaflet-popup-content-wrapper .leaflet-popup-content-wrapper {
+  width: auto;
+}
+.leaflet-popup-content-wrapper h3 {
+  margin: 0 0 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  margin: -4px 0px;
+}
+.leaflet-popup-content-wrapper p {
+  line-height: 0;
+  margin-left: 74px;
+  margin-top: -8px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.option .onclick {
+  cursor: pointer;
+  color: #bada55;
+}
+.option .onclick:hover {
+  opacity: 0.7;
+}
+
 .box {
   position: absolute;
   width: 35px;
   height: 35px;
   z-index: 1000;
-  right: 1%;
-  top: 1%;
+  right: 0%;
+  top: 3%;
 }
 
 .box:hover {
@@ -45,7 +82,16 @@
   padding: 0 10px;
   color: blue;
 }
+.align-item-mark .confirm {
+  z-index: 9999;
+}
 .align-item-mark .confirm:hover {
   cursor: pointer;
   opacity: 0.7;
+}
+
+.leaflet-div-icon {
+  background: #fff;
+  border: 1px solid #666;
+  border-radius: 10.4px;
 }/*# sourceMappingURL=leaflet.css.map */

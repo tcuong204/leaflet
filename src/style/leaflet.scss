@@ -1,16 +1,58 @@
-.box{
+.kq{
+    line-height: 0;
+    font-weight: 500 !important;
+    color: #1a152e !important;
+}
+.leaflet-popup-content-wrapper {
+    width: 110%;
+
+    .leaflet-popup-content-wrapper {
+        width: auto;
+    }
+
+    h3 {
+        margin: 0 0 12px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        margin: -4px 0px;
+    }
+    p{  
+        line-height: 0;
+    margin-left: 74px;
+    margin-top: -8px;
+    }
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .onclick {
+        cursor: pointer;
+        color: #bada55;
+    }
+
+    .onclick:hover {
+        opacity: 0.7;
+    }
+}
+
+.box {
     position: absolute;
     width: 35px;
     height: 35px;
     z-index: 1000;
-    right: 1%;
-    top: 1%;
+    right: 0%;
+    top: 3%;
 }
-.box:hover{
+
+.box:hover {
     opacity: 0.7;
     cursor: pointer;
 }
-.markingBoxes{
+
+.markingBoxes {
     position: absolute;
     right: 3%;
     z-index: 9999;
@@ -19,110 +61,47 @@
     opacity: 0.7;
     background-color: #fff;
     border: 1px #000;
-    .markingBoxes-text{
+
+    .markingBoxes-text {
         margin: 14px;
-        h5{
-            color:blue;
+
+        h5 {
+            color: blue;
         }
-        h5:hover{
+
+        h5:hover {
             cursor: pointer;
             opacity: 0.7;
         }
-        
+
     }
 }
-.align-item-mark{
+
+.align-item-mark {
     bottom: 0;
     right: 0;
     position: absolute;
     margin: 0px 20px;
     display: flex;
     align-items: center;
-    h5{ 
+
+    h5 {
         padding: 0 10px;
-        color:blue;
+        color: blue;
     }
-    
-    .confirm:hover{
+
+    .confirm {
+        z-index: 9999;
+    }
+
+    .confirm:hover {
         cursor: pointer;
         opacity: 0.7;
     }
 }
-.confirm{
-   
+
+.leaflet-div-icon {
+    background: #fff;
+    border: 1px solid #666;
+    border-radius: 10.4px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
